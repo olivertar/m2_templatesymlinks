@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Filesystem\Directory\PathValidator">
+        <plugin name="orangecat_templatesymlink_view_element_template_directory_validator" type="Orangecat\TemplateSymlinks\Plugin\DirectoryValidator" sortOrder="10" disabled="false"/>
+    </type>
+    <type name="Magento\Framework\View\Element\Template\File\Validator">
+        <plugin name="orangecat_templatesymlink_view_element_template_file_validator" type="Orangecat\TemplateSymlinks\Plugin\FileValidator" sortOrder="10" disabled="false"/>
+    </type>
+</config>

@@ -1,0 +1,25 @@
+{
+  "name": "orangecat/templatesymlinks",
+  "description": "Allows reaching templates with Symlinks",
+  "require": {
+    "php": "~7.1.3||~7.2.0||~7.3.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Oliverio Gombert",
+      "email": "olivertar@gmail.com",
+      "homepage": "http://olivert.com.ar",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Orangecat\\TemplateSymlinks\\": ""
+    },
+    "files": [
+      "registration.php"
+    ]
+  }
+}
